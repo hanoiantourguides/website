@@ -895,16 +895,16 @@ video {
   min-height: 100%;
 }
 
-.w-1\/2{
-  width: 50%;
-}
-
 .w-14{
   width: 3.5rem;
 }
 
-.w-2\/3{
-  width: 66.666667%;
+.w-3\/4{
+  width: 75%;
+}
+
+.w-4\/5{
+  width: 80%;
 }
 
 .w-\[this-is\\\\\]{
@@ -921,18 +921,6 @@ video {
 
 .w-auto{
   width: auto;
-}
-
-.w-3\/4{
-  width: 75%;
-}
-
-.w-4\/5{
-  width: 80%;
-}
-
-.w-7{
-  width: 1.75rem;
 }
 
 .min-w-full{
@@ -1277,10 +1265,6 @@ video {
   grid-auto-flow: column dense;
 }
 
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .grid-cols-5{
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
@@ -1469,16 +1453,16 @@ video {
   justify-items: stretch;
 }
 
-.space-x-2 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .space-x-1 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.25rem * var(--tw-space-x-reverse));
   margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-y-reverse > :not([hidden]) ~ :not([hidden]){
@@ -1934,16 +1918,12 @@ video {
   --tw-bg-opacity: 0.45;
 }
 
-.bg-opacity-85{
-  --tw-bg-opacity: 0.85;
-}
-
 .bg-opacity-80{
   --tw-bg-opacity: 0.8;
 }
 
-.bg-\[url\(\'\/group\.webp\'\)\]{
-  background-image: url('/group.webp');
+.bg-\[url\(\'\.\/group\.webp\'\)\]{
+  background-image: url('./group.webp');
 }
 
 .decoration-slice{
@@ -2001,10 +1981,6 @@ video {
 
 .bg-center{
   background-position: center;
-}
-
-.bg-bottom{
-  background-position: bottom;
 }
 
 .bg-repeat{
@@ -2072,6 +2048,11 @@ video {
   padding: 1.25rem;
 }
 
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -2092,19 +2073,14 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-3{
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .py-20{
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pb-20{
@@ -2175,10 +2151,6 @@ video {
   font-family: 'Karma';
 }
 
-.font-mono{
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
 .font-\[\'Shadows_Into_Light\'\]{
   font-family: 'Shadows Into Light';
 }
@@ -2219,10 +2191,6 @@ video {
 
 .font-semibold{
   font-weight: 600;
-}
-
-.font-\[Shadows_Into_Light\]{
-  font-weight: Shadows Into Light;
 }
 
 .uppercase{
@@ -2732,12 +2700,12 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:w-2\/3{
-    width: 66.666667%;
-  }
-
   .sm\:w-1\/2{
     width: 50%;
+  }
+
+  .sm\:w-2\/3{
+    width: 66.666667%;
   }
 
   .sm\:underline{
