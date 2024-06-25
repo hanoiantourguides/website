@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link href="./styles.css" rel="stylesheet" />
+    <link href="./owl.carousel.min.css" rel="stylesheet" />
+    <link href="./owl.theme.default.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>Hanoian Tour Guides ™</title>
+  </head>
+  <body class="font-['Karma']">
+    <header class="relative h-screen overflow-hidden">
+      <nav class="relative py-3 z-50 bg-white">
+        <ul class="px-2 sm:container mx-auto grid grid-cols-5 font-semibold">
+          <li class="flex items-center"><a href="#tour">Tour</a></li>
+          <li class="flex items-center"><a href="#about">About</a></li>
+          <li class="flex items-center justify-center">
+            <a href="/"
+              ><img src="./apple-touch-icon.png" class="w-14 h-14"
+            /></a>
+          </li>
+          <li class="flex items-center justify-end">
+            <a href="#reviews">Reviews</a>
+          </li>
+          <li class="flex items-center justify-end">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        id="tour"
+        class="relative z-30 h-full bg-black bg-opacity-45 flex flex-col items-center justify-center"
+      >
+        <div class="w-4/5 sm:w-2/3 py-10 px-3 bg-white text-center">
+          <h1 class="font-bold text-5xl">Explore Hanoi with real Hanoians</h1>
+          <h2 class="mt-1 italic text-3xl">in the most authentic way</h2>
+          <a
+            href="https://calendly.com/hanoiantourguides"
+            class="inline-block mt-12 bg-black text-white py-2 px-5"
+            target="_blank"
+            >Book now</a
+          >
+          <p class="font-['Shadows_Into_Light'] text-xl mt-1.5">
+            (NO pre-paid required, FREE cancellation)
+          </p>
+        </div>
+      </div>
+      <video
+        autoplay
+        loop
+        muted
+        class="absolute z-10 top-0 left-0 w-auto min-w-full min-h-full max-w-none"
+      >
+        <source src="intro.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </header>
+    <main>
+      <section id="about" class="container mx-auto text-center py-20">
+        <h1 class="font-bold text-4xl">About</h1>
+        <p class="text-justify w-3/4 sm:w-1/2 mx-auto mt-3 text-lg">
+          Our journey began with a deep-rooted love for this city. Our guides,
+          born and raised in Hanoi, have been immersed in its culture from day
+          one. Now, they're eager to share their love and the unique stories of
+          their lifelong journey in the city, from childhood to the present.
+          They've witnessed the city's transformations over the years, and
+          they're ready to guide you through it all.
+        </p>
+      </section>
+      <section
+        id="reviews"
+        class="bg-[url('/group.webp')] bg-cover bg-center bg-no-repeat"
+      >
+        <div class="bg-black bg-opacity-45 py-20">
+          <h1 class="font-bold text-4xl text-center text-white">Reviews</h1>
+          <div class="owl-carousel mt-7">
+            <div class="bg-white bg-opacity-80 p-5 text-center">
+              <img src="./5-stars.svg" class="inline-block h-7" />
+              <h2 class="font-bold text-2xl mt-5">A really good tour</h2>
+              <p class="text-lg mt-3 text-justify">
+                A really good tour ! I met him in a cafe asking for good
+                restaurant around and finally did a tour. It was a great
+                experience, I asked for more historical and less food and he
+                adapted the tour for it. I learned a lot. Thank you again ! See
+                you next time for a local food tour
+              </p>
+            </div>
+            <div class="bg-white bg-opacity-80 p-5 text-center">
+              <img src="./5-stars.svg" class="inline-block h-7" />
+              <h2 class="font-bold text-2xl mt-5">Memorable!</h2>
+              <p class="text-lg mt-3 text-justify">
+                The experience with Huy was memorable. I was the first person
+                who booked his 6-hour personal tour and I honestly wished we had
+                more time! His english is amazing and it being my last day, he
+                was flexible enough to give me the opportunity to completely
+                personalize the experience...
+              </p>
+            </div>
+            <div class="bg-white bg-opacity-80 p-5 text-center">
+              <img src="./5-stars.svg" class="inline-block h-7" />
+              <h2 class="font-bold text-2xl mt-5">
+                Enthusiastic guides with great knowledge of Hanoi!
+              </h2>
+              <p class="text-lg mt-3 text-justify">
+                Huy and Minh know great places to eat in Hanoi ancient town and
+                they were very flexible. They are very enthusiastic in sharing
+                the culture of Hanoi with us. Also gave us a motorbike tour
+                around the city center. We had a great time!
+              </p>
+            </div>
+            <div class="bg-white bg-opacity-80 p-5 text-center">
+              <img src="./5-stars.svg" class="inline-block h-7" />
+              <h2 class="font-bold text-2xl mt-5">
+                The only tour guides whose families lived in Hanoi since 200
+                years ago
+              </h2>
+              <p class="text-lg mt-3 text-justify">
+                “The only tour guides whose families lived in Hanoi since 200
+                years ago”. They know the city like no one else and thats why
+                you should choose them. I had such a great time on this tour. It
+                was personalized exactly for me and included some places I would
+                never have thought of by myself...
+              </p>
+            </div>
+          </div>
+          <div class="text-center mt-14 text-white">
+            <a
+              href="https://www.trustpilot.com/review/tours.rememberinghanoi.com"
+              target="_blank"
+              class="inline-block"
+              >See full reviews →</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="pt-10 pb-20">
+      <div id="contact" class="text-center">
+        <div class="space-x-1">
+          <a href="https://wa.me/84877035230" target="_blank">
+            <i class="fa-brands fa-whatsapp text-xl" aria-hidden="true"></i>
+          </a>
+          <a href="https://facebook.com/hanoiantourguides" target="_blank">
+            <i class="fa-brands fa-facebook text-xl" aria-hidden="true"></i>
+          </a>
+          <a href="https://instagram.com/hanoiantourguides" target="_blank">
+            <i class="fa-brands fa-instagram text-xl" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:hanoiantourguides@gmail.com">
+            <i class="fa-regular fa-envelope text-xl" aria-hidden="true"></i>
+          </a>
+        </div>
+        <p>&copy; 2024 Hanoian Tour Guides ™</p>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./owl.carousel.min.js"></script>
+    <script defer src="./main.js"></script>
+  </body>
+</html>
