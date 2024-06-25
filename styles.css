@@ -1922,8 +1922,8 @@ video {
   --tw-bg-opacity: 0.8;
 }
 
-.bg-\[url\(\'\.\/group\.webp\'\)\]{
-  background-image: url('./group.webp');
+.bg-\[url\(\'\.\/group\.jpg\'\)\]{
+  background-image: url('./group.jpg');
 }
 
 .decoration-slice{
@@ -2309,14 +2309,6 @@ video {
 
 .decoration-wavy{
   text-decoration-style: wavy;
-}
-
-.decoration-1{
-  text-decoration-thickness: 1px;
-}
-
-.decoration-2{
-  text-decoration-thickness: 2px;
 }
 
 .decoration-4{
